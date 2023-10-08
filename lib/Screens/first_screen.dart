@@ -48,6 +48,9 @@ class _FirstScreenState extends State<FirstScreen> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  const SizedBox(
+                    height: 15,
+                  ),
                   Text(
                     'The Fastest in',
                     style: primary,
@@ -63,7 +66,7 @@ class _FirstScreenState extends State<FirstScreen> {
                     textAlign: TextAlign.center,
                   ),
                   const SizedBox(
-                    height: 5,
+                    height: 25,
                   ),
                   Container(
                     width: double.infinity,
@@ -107,7 +110,10 @@ class _FirstScreenState extends State<FirstScreen> {
                   const SizedBox(
                     height: 20,
                   ),
-                  buttonmethod(context, 'Get Started')
+                  buttonmethod(context, 'Get Started'),
+                  const SizedBox(
+                    height: 15,
+                  ),
                 ],
               ),
             ),

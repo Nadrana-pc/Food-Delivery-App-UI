@@ -68,7 +68,7 @@ class _DetailScreenState extends State<DetailScreen> {
                   width: 150,
                 ),
                 Container(
-                  padding: const EdgeInsets.only(top: 5, bottom: 5),
+                  padding: const EdgeInsets.only(bottom: 5),
                   width: 120,
                   decoration: BoxDecoration(
                       color: highLight,
@@ -94,8 +94,17 @@ class _DetailScreenState extends State<DetailScreen> {
                             )),
                       ]),
                 ),
+                const SizedBox(
+                  height: 10,
+                ),
                 Row1(t1: widget.name, t2: widget.description, t3: widget.rate),
+                const SizedBox(
+                  height: 5,
+                ),
                 const Row2(),
+                const SizedBox(
+                  height: 5,
+                ),
                 Text(
                   "Juicy, big, loaded with toppings of my choice.High quality beef medium to well with cheese and bacon on a multigrain bun.A huge single or triple burger with all the fixings, cheese, lettuce, tomato, onions and special sauce or mayonnaise",
                   style: secondaryText,
@@ -105,7 +114,7 @@ class _DetailScreenState extends State<DetailScreen> {
                 ),
                 buttonmethod(context, "Add to Cart"),
                 const SizedBox(
-                  height: 10,
+                  height: 5,
                 )
               ],
             ),

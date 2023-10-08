@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery/Model/listmodel.dart';
 import 'package:food_delivery/Screens/itemdetailedscreen.dart';
-import 'package:food_delivery/Screens/itemmenuhome.dart';
 import 'package:provider/provider.dart';
 
 import '../Fonts/font.dart';
@@ -47,15 +46,15 @@ class _Container2HomeState extends State<Container2Home> {
 
     return InkWell(
       onTap: () {
-        print(indexproo.setIndex);
-        // Navigator.push(context, MaterialPageRoute(builder: (ctx) {
-        //   return DetailScreen(
-        //     name: categorylist[indexproo.setIndex].name[index],
-        //     description: categorylist[indexproo.setIndex].items[index],
-        //     rate: text3,
-        //     imagee: categorylist[indexproo.setIndex].img[index],
-        //   );
-        // }));
+        
+        Navigator.push(context, MaterialPageRoute(builder: (ctx) {
+          return DetailScreen(
+            name: categorylist[indexproo.setIndex].name[index],
+            description: categorylist[indexproo.setIndex].items[index],
+            rate: text3,
+            imagee: categorylist[indexproo.setIndex].img[index],
+          );
+        }));
       },
       child: Padding(
         padding: const EdgeInsets.only(right: 15, left: 5, top: 4, bottom: 4),
