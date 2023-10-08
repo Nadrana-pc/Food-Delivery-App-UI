@@ -5,7 +5,7 @@ var primary = GoogleFonts.poppins(
     textStyle: const TextStyle(
   color: Colors.black,
   fontWeight: FontWeight.bold,
-  fontSize: 22,
+  fontSize: 24,
 ));
 var primary2 = GoogleFonts.poppins(
     textStyle: const TextStyle(
@@ -33,8 +33,8 @@ var primarywhite = GoogleFonts.poppins(
 ));
 var secondaryText = GoogleFonts.poppins(
     textStyle: const TextStyle(
-        fontWeight: FontWeight.w400, fontSize: 8, color: Colors.black));
-        var secondaryText2 = GoogleFonts.poppins(
+        fontWeight: FontWeight.w400, fontSize: 12, color: Colors.black));
+var secondaryText2 = GoogleFonts.poppins(
     textStyle: const TextStyle(
         fontWeight: FontWeight.w400, fontSize: 8, color: Colors.white));
 
